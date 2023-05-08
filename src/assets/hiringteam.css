@@ -4,7 +4,7 @@
 .collapsible label{
     /* position: relative; */
     font-weight: 600;
-    background: #fff;
+    /* background: rgb(60, 60, 167); */
     display: block;
     margin-bottom: 10px ;
     cursor: pointer;

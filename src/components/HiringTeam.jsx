@@ -31,7 +31,7 @@ const HiringTeam = () => {
     <div className="">
     <div className="mx-3  max-w-[400px]   font-medium  sticky float-right right-0 top-0  z-[100] ">
         <div className="collapsible  ">
-            <label className=''>
+            <label className=' bg-blue-600 text-white'>
                 <button onClick={handleclick}> Hiring Team Discussion </button>
                 <span className='ml-36'>{arrow?<KeyboardArrowUpIcon/> :<KeyboardArrowDownIcon/> }</span>
             </label>
@@ -42,7 +42,7 @@ const HiringTeam = () => {
                 
                 <div className="sticky bottom-0  bg-white mt-20 border rounded-lg">
 
-                    <div className=" bg-gray-300 font-normal p-2 rounded-lg m-2 text-gray-800">
+                    <div className=" bg-gray-100 font-normal p-2 rounded-lg m-2 text-gray-400">
                         Add a comment...  
                         <span className='pl-24 ml-10'> <EmojiEmotionsIcon color="pink" /></span> |
                         <span className='pl-2'><SendIcon/></span>
