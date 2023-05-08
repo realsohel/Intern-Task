@@ -3,6 +3,7 @@ import "./App.css"
 import DownloadIcon from '@mui/icons-material/Download';
 import Navbar from './components/Navbar';
 import SampleScore from './components/SampleScore';
+import HiringTeam from './components/HiringTeam';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Navbar/>
         <div className="flex">
           <SampleScore/>
+          <HiringTeam/>
         </div>
       </div>
     </div>

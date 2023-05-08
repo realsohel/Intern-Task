@@ -4,6 +4,7 @@ import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite
 
 import "../assets/samplescore.css"
 import Skills from './Skills';
+import Remark from './Remark';
 
 const SampleScore = () => {
     return (
@@ -68,6 +69,8 @@ const SampleScore = () => {
                     </div>
                 </div>
             </div>
+
+            <Remark/>
         </div>
     </>
     )
