@@ -1,6 +1,8 @@
 
+
+
 .collapsible label{
-    position: relative;
+    /* position: relative; */
     font-weight: 600;
     background: #fff;
     display: block;
@@ -34,7 +36,7 @@
 } */
 
 .slide-down {
-    animation: 0.7s slide-down;
+    animation: 1s slide-down;
     }
     @keyframes slide-down {
     from {

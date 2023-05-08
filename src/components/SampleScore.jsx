@@ -10,11 +10,11 @@ const SampleScore = () => {
     return (
     <>
         <div className="mx-3 mb-4">
-            <div className="px-2  rounded-lg bg-white flex space-x-60" >
+            <div className="slide-left px-2  rounded-lg bg-white flex space-x-64" >
                 <div className=" mt-4 ">
                     <div className="flex space-x-16">
                         <p className='text-xl font-medium'>Sample Candidate</p>
-                        <p className='bg-green-200 text-green-600 text-sm font-medium px-2  py-1'> HIGHLY RECOMMENDED</p>
+                        <p className='bg-blue-100  text-green-600 text-sm font-medium px-2  py-1'> HIGHLY RECOMMENDED</p>
                     </div>
                     <div className="mt-3 text-gray-600 text-md font-medium">
                         demo_1 • (Software Backend Development)
@@ -24,7 +24,7 @@ const SampleScore = () => {
                     </div>
                 </div>
 
-                <div className=" mt-2">
+                <div className=" mt-2 ">
                     <div className="progress first ">
                         <span className="progress-left">
                             <span className="progress-bar"></span>
@@ -47,7 +47,7 @@ const SampleScore = () => {
                 <div className="flex space-x-4 mt-4">
 
                     <div className=" rounded-md w-[30%] border shadow-lg" >
-                        <div className="bg-blue-200   h-[18vh] px-20 pt-4  cursor-pointer">
+                        <div className="bg-blue-100   h-[18vh] px-20 pt-4  cursor-pointer">
                             <PlayCircleFilledWhiteIcon className=' m-4 my-6 'sx={{ fontSize: 40 }} color="primary"/>
                         </div>
                         <div className="p-3">
@@ -58,7 +58,7 @@ const SampleScore = () => {
                     </div>
 
                     <div className=" rounded-md w-[30%] border shadow-lg" >
-                        <div className="bg-blue-200   h-[18vh] px-20 pt-4  cursor-pointer">
+                        <div className="bg-blue-100    h-[18vh] px-20 pt-4  cursor-pointer">
                             <PlayCircleFilledWhiteIcon className=' m-4 my-6 'sx={{ fontSize: 40 }} color="primary"/>
                         </div>
                         <div className="p-3">

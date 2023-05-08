@@ -82,7 +82,6 @@
 
 
 
-/* add color */
 
 
 /*  BAR */
@@ -117,3 +116,16 @@
     }
 }
 
+
+
+.slide-left {
+    animation: 2s slide-left;
+    }
+    @keyframes slide-left {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
