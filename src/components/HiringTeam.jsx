@@ -29,7 +29,7 @@ const HiringTeam = () => {
     <>
     
     <div className="">
-    <div className="mx-3  max-w-[400px]   font-medium  sticky float-right right-0 top-0  z-[100] ">
+    <div className="mx-3  max-w-[400px]   font-medium  overflow-hidden sticky float-right right-0 top-0  z-[100] ">
         <div className="collapsible  ">
             <label className=' bg-blue-600 text-white'>
                 <button onClick={handleclick}> Hiring Team Discussion </button>
