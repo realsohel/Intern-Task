@@ -1,5 +1,4 @@
 import React from 'react'
-import "../assets/skills.css"
 
 import skills from '../jsonfiles/Skills'
 
@@ -14,8 +13,8 @@ const Skills = () => {
                 return <div className="text-md font-medium" id='skills-section' key={element.id}>
                         <div className="flex mt-6 ">
                             <div >{element.subject} </div>
-                            <div className='ml-auto progress-line '>
-                                <div className="progress-bar slide-progress " style={{width:`${element.percentage}`}}></div>
+                            <div className='ml-auto progress-line w-[40%] h-[8px] bg-gray-500 rounded-lg'>
+                                <div className="progress-bar slide-progress animate-slideProgress overflow-hidden h-[100%] bg-green-400 rounded-lg relatuve" style={{width:`${element.percentage}`}}></div>
                             </div>
                             <div className='ml-12 pr-12'>{element.score} <span className='text-gray-400'> / 800</span> </div>
                         </div>

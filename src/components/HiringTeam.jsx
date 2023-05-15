@@ -5,7 +5,6 @@ import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import SendIcon from '@mui/icons-material/Send';
 
 
-import "../assets/hiringteam.css"
 
 
 const HiringTeam = () => {
@@ -31,11 +30,11 @@ const HiringTeam = () => {
     <div className="">
     <div className="mx-3  max-w-[400px]   font-medium  overflow-hidden sticky float-right right-0 top-0  z-[100] ">
         <div className="collapsible  ">
-            <label className=' bg-blue-600 text-white'>
+            <label className=' bg-blue-600 text-white font-semibold block mb-3 cursor-pointer p-4 rounded'>
                 <button onClick={handleclick}> Hiring Team Discussion </button>
                 <span className='ml-36'>{arrow?<KeyboardArrowUpIcon/> :<KeyboardArrowDownIcon/> }</span>
             </label>
-            <div className="collapsible-text slide-down relative text-center bg-white " id="content">
+            <div className="collapsible-text animate-slide-down relative text-center bg-white " id="content">
                 {/* <h2>Hiring Team Discussion </h2> */}
                 <img src="/images/chat.webp" className="w-[100%] " alt="" />
                 <p className='absolute top-[70%] left-2 text-gray-600 mb-12'> Add your comments/remarks for other team members.</p>
