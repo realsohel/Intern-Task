@@ -3,13 +3,13 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
 
 import "../assets/samplescore.css"
-import Skills from './Skills';
-import Remark from './Remark';
+import Skills from './skills';
+import Remark from './remark';
 
 const SampleScore = () => {
     return (
     <>
-        <div className="mx-3 mb-4">
+        <div className="mx-3 mb-4 relative">
             <div className="slide-left px-2  rounded-lg bg-white flex space-x-64" >
                 <div className=" mt-4 ">
                     <div className="flex space-x-16">

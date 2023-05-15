@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react'
 import "./App.css"
 import DownloadIcon from '@mui/icons-material/Download';
-import Navbar from './components/Navbar';
-import SampleScore from './components/SampleScore';
-import HiringTeam from './components/HiringTeam';
+import Navbar from './components/navbar';
+import SampleScore from './components/sample-score';
+import HiringTeam from './components/hiring-team';
 
 function App() {
 
-//   useEffect(() => {
-//     window.scrollTo(0, 0)
-// }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
 
   return (
     <>

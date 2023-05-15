@@ -1,6 +1,6 @@
 import React from 'react'
 
-import skills from '../jsonfiles/Skills'
+import skills from '../jsonfiles/skills'
 
 const Skills = () => {
 
