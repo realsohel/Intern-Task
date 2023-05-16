@@ -5,7 +5,7 @@ import HiringTeam from './hiring-team'
 const Overview = () => {
     return (
     <>
-        <div className="flex bg-blue-100">
+        <div className="md:flex bg-blue-100  block">
             <SampleScore/>
             <HiringTeam/>
         </div>

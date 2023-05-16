@@ -22,12 +22,12 @@ const SampleScore = () => {
     }
     return (
     <>
-        <div className="mx-3 mb-4 relative ">
-            <div className="slide-left px-2  rounded-lg bg-white flex space-x-64" >
+        <div className="mx-3 mb-4 relative w-[100%] md:w-auto">
+            <div className="slide-left px-2  rounded-lg bg-white flex space-x-6 md:space-x-64" >
                 <div className=" mt-4 ">
-                    <div className="flex space-x-16">
+                    <div className="md:flex   md:space-x-16">
                         <p className='text-xl font-medium'>Sample Candidate</p>
-                        <p className='bg-blue-100  text-green-600 text-sm font-medium px-2  py-1'> HIGHLY RECOMMENDED</p>
+                        <p className='bg-blue-100  text-green-600 text-sm font-medium px-2  py-1 '> HIGHLY RECOMMENDED</p>
                     </div>
                     <div className="mt-3 text-gray-600 text-md font-medium">
                         demo_1 • (Software Backend Development)

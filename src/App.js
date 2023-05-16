@@ -21,13 +21,13 @@ function App() {
 
   return (
     <>
-    <div className="mx-12 ">
-      <div className="fade-in flex mt-28 mx-10  gap-96 space-x-96">
+    <div className="md:mx-12 mx-4">
+      <div className="fade-in flex mt-28 md:mx-10   md:gap-96 md:space-x-96">
         <div className="text-xl font-semibold  mr-28"> Interview Report</div>
         <div className=" text-xl font-semibold"><DownloadIcon/> Download</div>
       </div>
 
-    <div className="bg-blue-100">
+    <div className="bg-blue-100 ">
 
     
       <BrowserRouter>
